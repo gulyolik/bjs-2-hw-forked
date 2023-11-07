@@ -91,7 +91,7 @@ function averageEvenElementsWorker(...arr) {
 			countEvenElement++;
 		}
 	}
-	return (sumEvenElement / countEvenElement).toFixed(2);
+	return sumEvenElement / countEvenElement;
 }
 console.log(averageEvenElementsWorker(1, 2, 3, 4, 5, 6, 7, 8, 9)); // [2, 4, 6, 8] => 5
 console.log(averageEvenElementsWorker(15, 97, 85, 64, 67, 10, 69, 40, 15, 35)); // [64, 10, 40] => 38
