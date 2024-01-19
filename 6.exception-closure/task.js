@@ -11,7 +11,6 @@ function validateCount(arg) {
 		return parseCount(arg);
 	} catch (error) {
 		return error;
-		console.log(error);
 	}
 }
 
